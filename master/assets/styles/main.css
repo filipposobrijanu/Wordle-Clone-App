@@ -1,0 +1,378 @@
+@media only screen and (min-width: 375px){
+    @font-face {
+        font-family: Main;
+        src: url(../fonts/Utendo-Medium.ttf);
+    }
+    @font-face {
+        font-family: Main2;
+        src: url(../fonts/Akira\ Expanded\ Demo.otf);
+    }
+    html{
+
+        scroll-behavior: smooth;
+    }
+    *{
+
+        font-family: Main;
+        margin: 0;
+        
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    body{
+
+        scroll-behavior: smooth;
+        background-color: rgb(15, 15, 15);
+        animation: fadeInAnimation ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        
+
+    }
+    .blurclass{
+        filter: blur(0.2em);
+    }
+    .wordle-text{
+
+        letter-spacing: 0.1em;
+        text-align: center;
+        font-size: 2em;
+        color: white;
+        margin-top: 0.6em;
+        margin-bottom: 0.15em;
+        font-family: Main2;
+    }
+    .h2text{
+
+        letter-spacing: 0.1em;
+        text-align: center;
+        font-size: 1.5em;
+
+
+    }
+    .pop-text{
+
+        letter-spacing: 0.1em;
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 0.75em;
+
+
+    }
+    .divider{
+
+        height: 0.1em;
+        border: none;
+        background-color: rgb(88, 88, 88);
+    }
+    .madeby{
+
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-size: 0.9em;
+        color: rgb(116, 116, 116);
+        margin-top: 4em;
+        margin-bottom: 2em;
+
+    }
+
+    .underh1{
+
+        text-align: center;
+        letter-spacing: 0.1em;
+        font-size: 1.1em;
+        font-style: italic;
+        color: rgb(153, 153, 153);
+        margin-bottom: 1.4em;
+
+    }
+    ::selection{
+
+        background-color: rgb(153, 153, 153);
+        color: white;
+    }
+    .box{
+        background-color: none;
+        padding: 0.75em 1.75em;
+        border-radius: 0.75em;
+        border: solid 0.1em rgb(88, 88, 88);
+        color: white;
+        text-align: center;
+        display: inline-block;
+        width: 0.25em;
+        margin-bottom: 0.5em;
+
+    }
+    .box1{
+        background-color: none;
+        padding: 1.25em 0.95em;
+        border-radius: 0.5em;
+        color: white;
+        background-color: rgb(88, 88, 88);
+        text-align: center;
+        display: inline-block;
+        width: 0.15em;
+        margin-bottom: 0.5em;
+        cursor: pointer;
+        transition: scale 0.05s ease, backgroundcolor 0.1s ease;
+    }
+    .box1:hover{
+
+        scale: 1.1;
+        background-color: rgb(65, 65, 65);
+    }
+    .box1:active{
+
+        scale: 0.9;
+
+    }
+    .boxtext1{
+
+        font-size: 1.25em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxtext{
+
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .next_but{
+
+        padding: 0.6em 1.2em;
+        border-radius: 0.5em;
+        border: solid 0.1em rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        background-color: transparent;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.1s ease-in,scale 0.15s ease,color 0.15s ease;
+
+    }
+    .next_but:hover{
+
+        background-color: rgb(0, 0, 0);
+        scale: 1.1;
+        color: white;
+
+    }
+    .next_but:active{
+
+        scale: 0.9;
+
+    }
+    .centerdiv{
+
+        display: flex;
+        justify-content: center;
+    }
+    .con{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        -webkit-user-select: none;
+        -ms-user-select: none; 
+        user-select: none; 
+    }
+    .arrowback{
+        height: 0.75em;
+    }
+    .con1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        text-align: center;
+        -webkit-user-select: none;
+        -ms-user-select: none; 
+        user-select: none; 
+    }
+    .socials{
+
+        margin-bottom: 3em;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+    .soclogo{
+
+        width: 1.25em;
+        filter: brightness(100%);
+        transition: filter 0.1s ease-in,scale 0.15s ease;
+    }
+    .soclogo:hover{
+
+        scale: 1.4;
+        filter: brightness(70%);
+    }
+    .soclogo:active{
+
+        scale: 0.9;
+
+    }
+    .popupcon{
+
+        display: none;
+        position: fixed;
+        z-index: 9;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .popupwrong{
+
+        opacity: 0;
+        position: fixed;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    }
+    .showp{
+
+        opacity: 1;
+    }
+    .bgpopwrong{
+
+        background-color: white;
+        border-radius: 1em;
+        padding: 1.5em 2.5em;
+        
+    }
+    .x-iconyur{
+
+        width: 2em;
+        position: fixed;
+        transform: translate(270px, -25px);
+        cursor: pointer;
+        transition: filter 0.1s ease-in;
+
+    }
+    .x-iconyur:hover{
+
+        filter: opacity(50%);
+
+    }
+    .block{
+        display: block;
+    }
+    .bgpopup{
+
+        background-color: white;
+        border-radius: 1em;
+        padding: 3em 5em;
+    }
+
+    .pop_img{
+
+        width: 4em;
+        margin-bottom: 2.5em;
+    }
+    @keyframes loadfade {
+
+        0%{
+
+            opacity: 0;
+        }
+        100%{
+
+            opacity: 1;
+        }
+        
+    }
+
+    @keyframes loadfadedown {
+
+        0%{
+
+            opacity: 0;
+            scale: 0.575;
+            transform: translateY(-30px);
+        }
+        100%{
+
+            opacity: 1;
+            scale: 1;
+            transform: translateY(0);
+        }
+        
+    }
+
+    .popupcon{
+
+        animation: loadfade 1s;
+
+    }
+    .con, .wordle-text , .underh1 , .madeby , .socials, .box1{
+
+        animation: loadfadedown 1s;
+
+    }
+    #win,#lose{
+
+        display: none;
+    }
+}
+@media only screen and (min-width: 485px){
+
+    .box{
+
+        width: 0.75em;
+        padding: 1.25em 2.25em;
+    }
+    .boxtext{
+
+        font-size: 2.25em;
+
+    }
+    .box1{
+
+        width: 0.25em;
+        padding: 1.25em 1.1em;
+
+    }
+    .boxtext1{
+
+        font-size: 1.5em;
+
+    }
+    .wordle-text{
+
+        font-size: 2.5em;
+    }
+    .underh1{
+        font-size: 1.25em;
+    }
+    .madeby{
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 700px){
+
+    .box1{
+
+        width: 0.25em;
+        padding: 0.75em 1.75em;
+
+    }
+    .boxtext1{
+
+        font-size: 1.5em;
+
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Wordle">
+    <meta name="author" content="Filippos Obrijanu">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeWord&#8482;</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="blurcl">
+    <h1 class="wordle-text">LeWord</h1>
+    <p class="underh1">You know the drill..</p>
+    <hr class="divider">
+    </div>
+
+    <div class="con">
+        <div class="row">
+            <div id="1" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="2" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="3" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="4" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="5" class="box"><span class="boxtext">&nbsp;</span></div>
+        </div>
+        <div class="row">
+            <div id="6" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="7" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="8" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="9" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="10" class="box"><span class="boxtext">&nbsp;</span></div>
+        </div>
+        <div class="row">
+            <div id="11" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="12" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="13" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="14" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="15" class="box"><span class="boxtext">&nbsp;</span></div>
+        </div>
+        <div class="row">
+            <div id="16" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="17" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="18" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="19" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="20" class="box"><span class="boxtext">&nbsp;</span></div>
+        </div>
+        <div class="row">
+            <div id="21" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="22" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="23" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="24" class="box"><span class="boxtext">&nbsp;</span></div>
+            <div id="25" class="box"><span class="boxtext">&nbsp;</span></div>
+        </div>
+    </div> 
+    <div class="con1">
+        <div class="row">
+            <div id="26" onClick="clickk(this.id);" class="box1"><span class="boxtext1">Q</span></div>
+            <div id="27" onClick="clickk(this.id);" class="box1"><span class="boxtext1">W</span></div>
+            <div id="28" onClick="clickk(this.id);" class="box1"><span class="boxtext1">E</span></div>
+            <div id="29" onClick="clickk(this.id);" class="box1"><span class="boxtext1">R</span></div>
+            <div id="30" onClick="clickk(this.id);" class="box1"><span class="boxtext1">T</span></div>
+            <div id="31" onClick="clickk(this.id);" class="box1"><span class="boxtext1">Y</span></div>
+            <div id="32" onClick="clickk(this.id);" class="box1"><span class="boxtext1">U</span></div>
+            <div id="33" onClick="clickk(this.id);" class="box1"><span class="boxtext1">I</span></div>
+            <div id="34" onClick="clickk(this.id);" class="box1"><span class="boxtext1">O</span></div>
+            <div id="35" onClick="clickk(this.id);" class="box1"><span class="boxtext1">P</span></div>
+        </div>
+        <div class="row">
+            <div id="36" onClick="clickk(this.id);" class="box1"><span class="boxtext1">A</span></div>
+            <div id="37" onClick="clickk(this.id);" class="box1"><span class="boxtext1">S</span></div>
+            <div id="38" onClick="clickk(this.id);" class="box1"><span class="boxtext1">D</span></div>
+            <div id="39" onClick="clickk(this.id);" class="box1"><span class="boxtext1">F</span></div>
+            <div id="40" onClick="clickk(this.id);" class="box1"><span class="boxtext1">G</span></div>
+            <div id="41" onClick="clickk(this.id);" class="box1"><span class="boxtext1">H</span></div>
+            <div id="42" onClick="clickk(this.id);" class="box1"><span class="boxtext1">J</span></div>
+            <div id="43" onClick="clickk(this.id);" class="box1"><span class="boxtext1">K</span></div>
+            <div id="44" onClick="clickk(this.id);" class="box1"><span class="boxtext1">L</span></div>
+        </div>
+        <div class="row">
+            <div id="45" onClick="clickk(this.id);" class="box1"><span class="boxtext1">Z</span></div>
+            <div id="46" onClick="clickk(this.id);" class="box1"><span class="boxtext1">X</span></div>
+            <div id="47" onClick="clickk(this.id);" class="box1"><span class="boxtext1">C</span></div>
+            <div id="48" onClick="clickk(this.id);" class="box1"><span class="boxtext1">V</span></div>
+            <div id="49" onClick="clickk(this.id);" class="box1"><span class="boxtext1">B</span></div>
+            <div id="50" onClick="clickk(this.id);" class="box1"><span class="boxtext1">N</span></div>
+            <div id="51" onClick="clickk(this.id);" class="box1"><span class="boxtext1">M</span></div>
+            <div id="52" onClick="clickk(this.id);" class="box1"><span class="boxtext1"><img class="arrowback" src="assets/icons/arrow-left.svg" alt=""></span></div>
+        </div>
+    </div>
+    <div class="popupcon">
+        <div class="bgpopup">
+           <!-- <img onclick="ClosePopup()" class="x-iconyur" src="assets/icons/x-lg.svg" alt="X">-->
+            <div class="centerdiv">
+                <button onclick="PlayAgain()" class="next_but">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>   
+    <div class="popupwrong">
+        <div class="bgpopwrong">
+            <h2 class="h2text">Not in word list</h1>
+        </div>
+    </div>
+    <div class="blurcl">
+    <p class="madeby">Created by Filippos Obrijanu</p>
+    <div class="socials">
+        <a href="#"><img class="soclogo" src="assets/icons/github.svg" alt="GitHub"></a>
+        <a href="#"><img class="soclogo" src="assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img class="soclogo" src="assets/icons/youtube.svg" alt="YouTube"></a>
+        <a href="#"><img class="soclogo" src="assets/icons/twitter-x.svg" alt="Twitter"></a>
+    </div>
+</div>
+    <script src="features/main.js"></script>
+    <script src="features/disablerightclick.js"></script>
+</body>
+</html>
