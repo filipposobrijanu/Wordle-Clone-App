@@ -1,7 +1,7 @@
 
 # Wordle Clone App
 
-A clone of the famous Wordle app.
+A **faithful recreation** of the popular word-guessing game, built from the ground up to mirror the **addictive gameplay** and **clean design** of the original. This clone preserves the **simple yet challenging** daily word puzzle experience while adding some personal customization options.
 
 ---
 
