@@ -1,32 +1,32 @@
+# 🧩 Wordle Clone
 
-# Wordle Clone App
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://wordle-clone-appp.netlify.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A **faithful recreation** of the popular word-guessing game, built from the ground up to mirror the **addictive gameplay** and **clean design** of the original. This clone preserves the **simple yet challenging** daily word puzzle experience while adding some personal customization options.
+A faithful recreation of the popular word-guessing game. This project focuses on implementing robust game logic, state management for user guesses, and a clean, accessible UI that mirrors the original's addictive gameplay loop.
 
-![screenshot](Images/1.PNG)
----
+![Wordle Clone Screenshot](Images/1.PNG)
 
-## 🛠️ Technologies Used
+## ✨ Core Features
 
-- **HTML5, CSS3, JavaScript**
-- **Bootstrap 5** for responsive UI
-- **VS Code** (development IDE)
+* **Game State Management:** Tracks real-time guess progress, letter placement, and win/loss conditions.
+* **Dynamic Feedback:** Implements the iconic green/yellow/gray tile color logic based on letter accuracy and positioning.
+* **Interactive Virtual Keyboard:** Synchronizes keyboard state with user input for an intuitive experience.
+* **Responsive UI:** Fully fluid layout using Bootstrap 5, optimized for seamless play across desktop and mobile devices.
 
-![screenshot](Images/2.PNG)
----
+## 🛠️ Built With
 
-## 📄 License
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+</p>
 
-This project is open-source.
+![Game Interface](Images/2.PNG)
 
----
+## 🚀 Getting Started
 
-## 🤝 Contributing
-
-Pull requests are welcome! Please follow standard GitHub flow and keep the code clean and documented.
-
----
-
-## 📬 Contact
-
-For questions, contact me at [obrizanou@gmail.com](mailto:obrizanou@gmail.com) or open an issue.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/filipposobrijanu/Wordle-Clone.git](https://github.com/filipposobrijanu/Wordle-Clone.git)
