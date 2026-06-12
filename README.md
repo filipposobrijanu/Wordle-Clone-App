@@ -27,16 +27,22 @@
 
 ### 🛠️ Tech Stack
 
-**Client Engine & Logic**
+**Core View Engine & Computational Logic**
 <p align="left">
   <img src="https://img.shields.io/badge/JavaScript_ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
 </p>
 
-**Presentation & Responsive Framework**
+**Design Layout & Interface Primitives**
 <p align="left">
   <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+</p>
+
+**Architecture Patterns & Architecture Subsystems**
+<p align="left">
+  <img src="https://img.shields.io/badge/DOM_Manipulation-000000?style=for-the-badge" alt="Native DOM Manipulation" />
+  <img src="https://img.shields.io/badge/CSS_Grid_/_Flexbox-1572B6?style=for-the-badge" alt="Layout Primitives" />
 </p>
 
 ---
