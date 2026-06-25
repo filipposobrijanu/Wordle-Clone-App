@@ -2,7 +2,7 @@
 <h3 align="center">Faithful Implementation of the Iconic Word-Guessing Logic</h3>
 
 <p align="center">
-  A highly optimized recreation of the popular word-guessing game. This project focuses on implementing robust game logic, complex state management, and a high-fidelity interface that perfectly replicates the original's addictive game-loop architecture.
+  A highly optimized recreation of the popular word-guessing game.
 </p>
 
 <p align="center">
@@ -16,16 +16,7 @@
 
 ---
 
-### ✨ Core Features
-
-* **Deterministic Game Loop Engine:** Implements a complex client-side state machine to manage iterative guess cycles, validation logic, and win/loss condition evaluation.
-* **Accurate Heuristic Feedback:** Engineered a character-matching algorithm to provide the industry-standard visual logic (Green: Match, Yellow: Misplaced, Gray: Absent) with performant array traversal.
-* **State-Synchronized Virtual Interface:** Built a robust input handler that mirrors physical keyboard events with a dynamic virtual keypad, ensuring consistent UX during high-speed play.
-* **Adaptive Viewport & UI/UX:** Fully fluid, mobile-first design leveraging Bootstrap 5 for accessible tile-grid layout rendering across diverse screen aspect ratios.
-
----
-
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Core View Engine & Computational Logic**
 <p align="left">
@@ -47,7 +38,7 @@
 
 ---
 
-### 📸 Application Showcase
+### Application Showcase
 
 <p align="center">
   <img src="Images/1.PNG" width="48%" />
@@ -56,7 +47,7 @@
 
 ---
 
-### 🚀 Getting Started (Local Development)
+### Getting Started (Local Development)
 
 **1. Clone the repository:**
 ```bash
