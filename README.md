@@ -1,5 +1,4 @@
 <h1 align="center">Wordle Clone</h1>
-<h3 align="center">Faithful Implementation of the Iconic Word-Guessing Logic</h3>
 
 <p align="center">
   A highly optimized recreation of the popular word-guessing game.
